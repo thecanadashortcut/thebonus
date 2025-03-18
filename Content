@@ -1,1 +1,5 @@
+let userName = readLine ("What is your Name?");
+let userAge = readInt ("How old are you?");
+let futureAge = userAge + 1;
 
+console.log("Hi, " + userName + ", you will be " + futureAge + " years old after your next birthday!");
